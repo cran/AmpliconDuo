@@ -33,10 +33,8 @@ Names of the sampling sites are specified in the data \code{\link{site.f}}.
 }
 
 \references{
-Boenigk J, Heider D, Jost S, Lange A, Budeus B, Schilling E,
-Strittmatter A, Hoffmann D: A high-throughput amplicon sequencing and
-analysis protocol for comparative analyses of microbial communities
-\emph{(submitted)}
+Lange A, Jost S, Heider D, Bock C, Budeus B, Schilling E, Strittmatter A, Boenigk J, Hoffmann D: AmpliconDuo: A Split-Sample Filtering Protocol for High-Throughput Amplicon Sequencing of Microbial Communities. 
+\emph{(PLoS One. 2015 Nov 2;10(11))}
 }
 \examples{
 data(ampliconfreqs)

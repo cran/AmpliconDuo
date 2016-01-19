@@ -1,7 +1,7 @@
 \name{plotAmpliconduo}
 \alias{plotAmpliconduo}
 \title{
-Frequeny-Frequency Plot Focusing On Significant Deviations In Amplicon Occurences
+Frequency-Frequency Plot Focusing On Significant Deviations In Amplicon Occurences
 }
 \description{
 Applied to an ampliconduo data frame, one element of the return value of

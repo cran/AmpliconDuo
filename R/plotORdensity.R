@@ -88,6 +88,7 @@ function(x, log = "x", ncol = 2, adjust.zeroinf = TRUE, zero.pos = 0.005,
           geom = "histogram",
           binwidth = binwidth,
           fill = I(color),
+          ...
         ) +
           xlab(xlab) +
           facet_wrap(~sample, ncol = ncol)
@@ -102,6 +103,7 @@ function(x, log = "x", ncol = 2, adjust.zeroinf = TRUE, zero.pos = 0.005,
           geom = "histogram",
           binwidth = binwidth,
           fill = I(color),
+          ...
         ) +
           xlab(xlab) +
           facet_wrap(~sample, ncol = ncol)
@@ -119,6 +121,7 @@ function(x, log = "x", ncol = 2, adjust.zeroinf = TRUE, zero.pos = 0.005,
     }
   
   ##################################
+  ncol=as.integer(ncol)
   xclass <- class(x)
   if(xclass[1] == "list"){
     plot.ORdensity.ampliconduo.set(x, log, ncol, adjust.zeroinf, zero.pos,

@@ -1,7 +1,7 @@
 \name{plotAmpliconduo.set}
 \alias{plotAmpliconduo.set}
 \title{
-Frequeny-Frequency Plot Arrangement Focusing On Significant Deviations In Amplicon Occurences
+Frequency-Frequency Plot Arrangement Focusing On Significant Deviations In Amplicon Occurences
 }
 \description{
 Called on the return value of the \code{\link{ampliconduo}} function, a list of ampliconduo data frames. Generates for each ampliconduo data frame a plot with \code{freqB} over \code{freqA} and arranges them in a 2-dimensional array, whereas plots in the same row and column share the same scale. Points with a p-value or adjusted p-value below a certain treshold are colored differently (default: red) indicating significant deviations of amplicon occurences between the two samples in an ampliconduo data frame.
