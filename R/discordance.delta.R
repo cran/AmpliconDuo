@@ -58,7 +58,7 @@ function(x, names = NULL, theta = 0.05, corrected = TRUE,
   }
   if(printToTex ==T){
     if(is.null(file.name)){
-      file.name = paste("discordanceDelta_", Sys.Date(), ".txt", sep = "" )
+      file.name = paste("discordanceDelta", ".txt", sep = "" )
     }
     if(!is.null(directory)){
       file.name = paste(directory, "/", file.name, sep = "")

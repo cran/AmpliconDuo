@@ -1,7 +1,7 @@
 \name{plotAmpliconduo.set}
 \alias{plotAmpliconduo.set}
 \title{
-Frequency-Frequency Plot Arrangement Focusing On Significant Deviations In Amplicon Occurences
+Frequeny-Frequency Plot Arrangement Focusing On Significant Deviations In Amplicon Occurences
 }
 \description{
 Called on the return value of the \code{\link{ampliconduo}} function, a list of ampliconduo data frames. Generates for each ampliconduo data frame a plot with \code{freqB} over \code{freqA} and arranges them in a 2-dimensional array, whereas plots in the same row and column share the same scale. Points with a p-value or adjusted p-value below a certain treshold are colored differently (default: red) indicating significant deviations of amplicon occurences between the two samples in an ampliconduo data frame.
@@ -72,7 +72,7 @@ Optional. Allows to pass other aesthetics.
 Generates an arrangement of plots from the return value of the \code{\link{ampliconduo}} function, that nicely visualizes those amplicons with a significant deviations in read numbers between the two amplicon data sets. The data in \code{x} are transformed and passed to the \code{\link[ggplot2]{qplot}} function. The 2-dimensional arrangement of the different plots is achieved using \code{\link[ggplot2]{facet_wrap}}. Important aestetic parameters like color, aspect ratio, legend position \dots are easily customized. Optionally, the plot can be saved in a variety of formats.
 }
 \references{
-\url{http://had.co.nz/ggplot2/book/qplot.pdf}
+\url{https://ggplot2.tidyverse.org/reference/qplot.html}
 }
 
 \author{

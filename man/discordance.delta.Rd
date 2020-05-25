@@ -92,7 +92,6 @@ data(amplicons)
 ## calculate the discordance between amplicon data sets of an ampliconduo data frame
 dd.a <- discordance.delta(amplicons)
 dd.b <- discordance.delta(amplicons, theta = 0.1)
-dd.c <- discordance.delta(amplicons, printToTex = TRUE)
 }
 
 

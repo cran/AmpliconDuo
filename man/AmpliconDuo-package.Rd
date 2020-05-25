@@ -3,7 +3,7 @@
 \alias{AmpliconDuo}
 \docType{package}
 \title{
-Statistical Analysis Of Amplicon Data Of The Same Sample To Identify Artefacts
+Statistical Analysis Of Amplicon Data Of The Same Sample To Identify Spurious Amplicons
 }
 \description{
 
@@ -26,8 +26,8 @@ and to filter the false positive amplicons.
 \tabular{ll}{
 Package: \tab AmpliconDuo\cr
 Type: \tab Package\cr
-Version: \tab 1.1\cr
-Date: \tab 2016-01-14\cr
+Version: \tab 1.1.1\cr
+Date: \tab 2020-05-22\cr
 License: \tab GPL-2 \cr
 }
 
@@ -72,8 +72,7 @@ Maintainer: Anja Lange (\email{anja.lange@uni-due.de})
 \keyword{ package }
 
 \references{
-Lange A, Jost S, Heider D, Bock C, Budeus B, Schilling E, Strittmatter A, Boenigk J, Hoffmann D: AmpliconDuo: A Split-Sample Filtering Protocol for High-Throughput Amplicon Sequencing of Microbial Communities. 
-\emph{(PLoS One. 2015 Nov 2;10(11))}
+Lange A, Jost S, Heider D, Bock C, Budeus B, et al. (2015) AmpliconDuo: A Split-Sample Filtering Protocol for High-Throughput Amplicon Sequencing of Microbial Communities. PLOS ONE 10(11): e0141590
 }
 
 \examples{

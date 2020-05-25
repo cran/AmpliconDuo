@@ -50,7 +50,7 @@ function(x, log = "x", ncol = 2, adjust.zeroinf = TRUE, zero.pos = 0.005,
       
       if(save == T){
         if(is.null(file.name)){
-          file.name = paste("ORdensity", "_", Sys.Date(), ".",format , sep ="")
+          file.name = paste("ORdensity", ".", format , sep ="")
         }else{
           file.name = paste(file.name, ".", format, sep = "")
         }
@@ -111,7 +111,7 @@ function(x, log = "x", ncol = 2, adjust.zeroinf = TRUE, zero.pos = 0.005,
       
       if(save == T){
         if(is.null(file.name)){
-          file.name = paste("ORdensity", "_", Sys.Date(), ".", format, sep ="")
+          file.name = paste("ORdensity",  ".", format, sep ="")
         }else{
           file.name = paste(file.name, ".", format, sep = "")
         }

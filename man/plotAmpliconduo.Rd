@@ -1,7 +1,7 @@
 \name{plotAmpliconduo}
 \alias{plotAmpliconduo}
 \title{
-Frequency-Frequency Plot Focusing On Significant Deviations In Amplicon Occurences
+Frequeny-Frequency Plot Focusing On Significant Deviations In Amplicon Occurences
 }
 \description{
 Applied to an ampliconduo data frame, one element of the return value of
@@ -75,7 +75,7 @@ Optional. Allows to pass other aesthetics.
 }
 
 \references{
-\url{http://had.co.nz/ggplot2/book/qplot.pdf}
+\url{https://ggplot2.tidyverse.org/reference/qplot.html}
 }
 
 \author{
